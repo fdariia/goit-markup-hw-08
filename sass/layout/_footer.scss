@@ -119,10 +119,9 @@
     }
 }
 
-.newsletter__button-wrapper{
+.newsletter__button-wrapper {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
 }
 
 .newsletter__button {
@@ -216,10 +215,10 @@
     }
 
     .newsletter__button-wrapper {
-        justify-content: flex-end;
+        display: flex;
+        align-items: flex-end;
     }
 }
-
 
 // .page-footer {
 //     padding-top: 60px;
