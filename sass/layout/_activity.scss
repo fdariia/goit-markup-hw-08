@@ -1,9 +1,16 @@
+@media screen and (max-width: 1199px) {
+    .activity {
+        display: none;
+    }
+}
+
 .no-padding-top {
     padding-top: 0; 
  }
 
 .activity__list {
     display: flex;
+    text-align: center;
     gap: 30px;
 }
 

@@ -1,13 +1,15 @@
 .features__list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
-.features__item {
-    width: 270px;
-}
+// .features__item {
+//     width: 270px;
+// }
 
-.features__wrapper {
+.features__icon-wrapper {
     display: flex;
     justify-content:center;
     align-items:center;
@@ -30,9 +32,30 @@
 }
 
 .features__desc {
-
     color: var(--text-color);
 
     font-size: 14px;
     line-height: 1.71;
+}
+
+@media screen and (max-width: 767px) {
+    .features__item {
+        width: 450px;
+    }
+
+    .features__subtitle {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .features__item {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .features__item {
+        width: 270px;
+    }
 }

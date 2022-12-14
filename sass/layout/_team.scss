@@ -4,6 +4,7 @@
 
 .team__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -13,13 +14,9 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team__image {
-    display: block;
-}
-
 .team__inner {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -43,4 +40,10 @@
 
     font-size: 16px;
     line-height: 1.19;
+}
+
+@media screen and (min-width: 1200px) {
+    .team__inner {
+        padding-bottom: 30px;
+    }
 }

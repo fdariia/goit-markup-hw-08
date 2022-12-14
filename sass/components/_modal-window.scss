@@ -6,10 +6,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 528px;
-    min-height: 581px;
+    width: 94%;
+    height: 94%;
+    max-width: 450px;
+    max-height: 609px;
+    // min-width: 528px;
+    // min-height: 581px;
     padding: 40px;
     border-radius: 4px;
+    overflow: auto;
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--transition-dur-and-func);
     background-color: #FFFFFF;
@@ -29,4 +34,11 @@
     background-color: transparent;
     padding: 0;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+    .modal {
+        max-width: 528px;
+        max-height: 581px;
+    }
 }
