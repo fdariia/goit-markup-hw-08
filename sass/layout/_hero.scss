@@ -33,7 +33,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/background-mobile-img.jpg");
+      url("../images/background-images/background-mobile-img.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -44,7 +44,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../images/background-mobile-img@2x.jpg");
+        url("../images/background-images/background-mobile-img@2x.jpg");
     }
   }
 }
@@ -57,7 +57,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/background-tablet-img.jpg");
+      url("../images/background-images/background-tablet-img.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -68,7 +68,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../images/background-tablet-img@2x.jpg");
+        url("../images/background-images/background-tablet-img@2x.jpg");
     }
   }
 }
@@ -85,13 +85,13 @@
   }
 
   .overlay {
-    // max-width: 1600px;
+    max-width: 1600px;
     height: 600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/background-desktop-img.jpg");
+      url("../images/background-images/background-desktop-img.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -102,7 +102,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../images/background_images/background-desktop-img@2x.jpg");
+        url("../images/background-images/background-desktop-img@2x.jpg");
     }
   }
 }
